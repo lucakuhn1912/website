@@ -1,0 +1,36 @@
+
+#left-side {
+  width: 50%;
+  position: relative;
+}
+
+#left-text {
+  position: absolute;
+  bottom: 50vh;
+  right: 10px;
+}
+
+#right-side {
+  width: 50%;
+  position: relative;
+}
+
+#right-text {
+  position: absolute;
+  bottom: 40vh;
+  left: 10px;
+}
+
+#first-name {
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+  text-shadow: 1px 2px 2px #6a6f70;
+}
+
+#last-name {
+  font-size: 40px;
+  color: $light-grey;
+  font-weight: lighter;
+  text-shadow: 1px 2px 2px $light-grey;
+}
