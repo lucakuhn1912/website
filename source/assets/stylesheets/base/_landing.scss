@@ -17,19 +17,19 @@
 
 #right-text {
   position: absolute;
-  bottom: 40vh;
+  bottom: 38.6vh;
   left: 10px;
 }
 
 #first-name {
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   font-weight: lighter;
   text-shadow: 1px 2px 2px #6a6f70;
 }
 
 #last-name {
-  font-size: 40px;
+  font-size: 50px;
   color: $light-grey;
   font-weight: lighter;
   text-shadow: 1px 2px 2px $light-grey;
@@ -41,4 +41,28 @@ font-weight: lighter;
 
 #r-text {
 font-weight: lighter;
+}
+
+.links {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}
+
+.links ul li {
+  padding: 4px 10px;
+  opacity: 0.6;
+  i {
+    color: white;
+  }
+}
+
+.get-in-touch a {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  color: $my-red;
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
 }
