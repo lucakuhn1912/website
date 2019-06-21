@@ -21,9 +21,10 @@ $light-grey: #96A1A4;
   margin-top: 5px;
   color: white;
     &:hover {
-      opacity: 1;
-      color: white;
-    }
+    text-decoration: none;
+    background-color: #ef0202;
+    color: white;
+  }
 }
 
 
